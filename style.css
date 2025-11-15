@@ -1,0 +1,73 @@
+header {
+    display: flex;
+    padding: 5px;
+    background-color: beige;
+
+} header h1 {
+    width: 20%;
+    color: rgb(75, 48, 29);
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: 1px;
+    border-color: black;
+}
+.navbar { 
+    overflow: hidden;
+    right: 0;
+    width: 80%;
+}.nav-list{
+    display: block;
+    list-style-type: none;
+    padding-right: 20px;
+    overflow: hidden;
+}.nav-list li{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-list li a {
+    float: left;
+    text-decoration: none;
+    color:  rgb(75, 48, 29);
+    font-size: 18px;
+    text-align: center;
+    padding: 14px 16px;
+}
+.nav-list li a:hover {
+    color: rgb(209, 204, 186);
+}
+#current {
+    color: rgb(209, 204, 186);
+}
+
+body {
+    background-color: beige;
+}
+
+.game-box{
+    display: flex;
+    padding: 5px;
+}
+
+.doll-left {
+    width: 50%;
+}
+.parent {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+#base-layer {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 70%;
+}
+.clothing {
+    position: absolute;
+    top: 0; 
+    left: 0;
+    width: 70%;
+}
+
+.wardrobe-right {
+    background-color: rgb(75, 48, 29);
+    width: 50%;
+}
