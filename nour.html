@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="nour.css">
+    <title>Autumn Wardrobes</title>
+</head>
+<body>
+    <script src="script.js"></script>
+    <header>
+        <h1>autumn wardrobes</h1>
+        <nav class="navbar">
+            <ul class="nav-list">
+                <li><a href="lilah.html">lilah</a></li>
+                <li><a href="mandy.html">mandy</a></li>
+                <li><a id="current" href="">nour</a></li>
+                <li><a href="kirsten.html">kirsten</a></li>
+                <li><a href="about.html">about</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="game-box">
+        <div class="doll-left">
+            <div class="parent">
+                <img id="base-layer" src="nour-wardrobe/base-layer.png">
+                <img class="clothing" id="button-up-top" src="nour-wardrobe/button-up-top.png">
+                <img class="clothing" id="capris" src="nour-wardrobe/capris.png">
+                <img class="clothing" id="miniskirt" src="nour-wardrobe/mini-skirt.png">
+                <img class="clothing" id="dress" src="nour-wardrobe/dress.png">
+                <img class="clothing" id="shawl" src="nour-wardrobe/shawl.png">
+                <img class="clothing" id="tote" src="nour-wardrobe/tote.png">
+                <img class="clothing" id="boots" src="nour-wardrobe/boots.png">
+                <img class="clothing" id="watch" src="nour-wardrobe/watch.png">
+            </div>
+        </div>
+        <div class="wardrobe-right">
+            <div class="row">
+                <div class="column">
+                    <button onclick="toggle('watch')"><img src="nour-wardrobe/watch copy.png"></button>
+                    <button onclick="toggle('tote')"><img src="nour-wardrobe/tote copy.png"></button>
+                    <button onclick="toggle('boots')"><img src="nour-wardrobe/boots copy.png"></button>
+                </div>
+                <div class="column">
+                    <button onclick="toggle('shawl')"><img src="nour-wardrobe/shawl copy.png"></button>
+                    <button onclick="toggle('button-up-top')"><img src="nour-wardrobe/button-up-top copy.png"></button>
+                    <button onclick="toggle('miniskirt')"><img src="nour-wardrobe/mini-skirt copy.png"></button>
+                </div>
+                <div class="column">
+                    <button onclick="toggle('dress')"><img src="nour-wardrobe/dress copy.png"></button>
+                    <button onclick="toggle('capris')"><img src="nour-wardrobe/capris copy.png"></button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    
+</body>
+</html>
