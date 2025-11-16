@@ -65,9 +65,27 @@ body {
     top: 0; 
     left: 0;
     width: 70%;
+    display: none;
+}
+.wardrobe-right {
+    background-color: rgb(162, 152, 144);
+    width: 50%;
 }
 
-.wardrobe-right {
-    background-color: rgb(75, 48, 29);
-    width: 50%;
+.row {
+    display: flex;
+    padding: 5px;
+}
+.column {
+    width: 33.3%;
+}
+
+button {
+    background-color: rgb(162, 152, 144);
+    border: none;
+    padding: 50px;
+}button :hover{
+    background-color:rgb(132, 124, 117);
+}button img {
+    width: 70%;
 }
