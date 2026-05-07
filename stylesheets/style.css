@@ -60,3 +60,26 @@ a:active {
     color:  rgb(75, 48, 29);
     text-decoration: none;
 }
+
+.menu-container h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(75, 48, 29);;
+}
+
+.menu {
+    justify-self: center;
+}
+
+.menu-btn {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 10px;
+}
+.menu-btn :hover {
+    background-color: #e7e7cd;
+}
+.menu-btn-img {
+    height: 20rem;
+}

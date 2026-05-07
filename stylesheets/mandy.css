@@ -15,18 +15,22 @@
     position: relative;
     top: 0;
     left: 0;
-    width: 530px;
+    width: 40rem;
 }
 .clothing {
     position: absolute;
     top: 0; 
     left: 0;
-    width: 530px;
+    width: 40rem;
     display: none;
 }
 .wardrobe-right {
     background-color: rgb(164, 181, 204);
     width: 50%;
+    padding: 2rem;
+    max-width: fit-content;
+    max-height: fit-content;
+    margin-top: 0.5in;
 }
 
 .container {
@@ -37,10 +41,11 @@
 button {
     background-color: rgb(164, 181, 204);
     border: none;
-    padding: 50px;
+    padding: 5px;
     size: auto;
 }button :hover{
     background-color:rgb(140, 155, 176);
 }button img {
-    width: 100px;
+    width: 7rem;
+    padding: 2rem;
 }
