@@ -25,25 +25,23 @@
     display: none;
 }
 .wardrobe-right {
-    background-color: rgb(164, 181, 204);
+    background-color: rgb(94, 101, 85);
     width: 50%;
+    overflow: scroll;
 }
 
-.row {
-    display: flex;
-    padding: 5px;
-}
-.column {
-    width: 33.3%;
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
 }
 
 button {
-    background-color: rgb(164, 181, 204);
+    background-color: rgb(94, 101, 85);
     border: none;
     padding: 50px;
     size: auto;
 }button :hover{
-    background-color:rgb(140, 155, 176);
+    background-color:rgb(73, 79, 66);
 }button img {
     width: 100px;
 }

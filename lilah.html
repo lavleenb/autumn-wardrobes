@@ -4,12 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="lilah.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylesheets/lilah.css">
+    <link rel="stylesheet" href="stylesheets/style.css">
     <title>Autumn Wardrobes</title>
 </head>
 <body>
-    <script src="script.js"></script>
     <header>
         <h1><a href="index.html">autumn wardrobes</a></h1>
         <nav class="navbar">
@@ -39,26 +38,19 @@
             </div>
         </div>
         <div class="wardrobe-right">
-            <div class="row">
-                <div class="column">
-                    <button onclick="toggle('glasses')"><img src="lilah-wardrobe/glasses copy.png"></button>
-                    <button onclick="toggle('earrings')"><img src="lilah-wardrobe/earrings copy.png"></button>
-                    <button onclick="toggle('shoulder-bag')"><img src="lilah-wardrobe/shoulder-bag copy.png"></button>
-                </div>
-                <div class="column">
-                    <button onclick="toggle('scarf')"><img src="lilah-wardrobe/striped-scarf copy.png"></button>
-                    <button onclick="toggle('aura-top')"><img src="lilah-wardrobe/aura-top copy.png"></button>
-                    <button onclick="toggle('cat-nap-top')"><img src="lilah-wardrobe/cat-nap-top copy.png"></button>
-                </div>
-                <div class="column">
-                    <button onclick="toggle('striped-skirt')"><img src="lilah-wardrobe/striped-skirt copy.png"></button>
-                    <button onclick="toggle('suede-skirt')"><img src="lilah-wardrobe/suede-skirt copy.png"></button>
-                    <button onclick="toggle('boots')"><img src="lilah-wardrobe/boots copy.png"></button>
-                </div>
+            <div class="container">
+                    <button type="glasses"><img src="lilah-wardrobe/glasses copy.png" ></button>
+                    <button type="earrings"><img src="lilah-wardrobe/earrings copy.png"></button>
+                    <button type="shoulder-bag"><img src="lilah-wardrobe/shoulder-bag copy.png"></button>
+                    <button type="scarf"><img src="lilah-wardrobe/striped-scarf copy.png"></button>
+                    <button type="aura-top"><img src="lilah-wardrobe/aura-top copy.png"></button>
+                    <button type="cat-nap-top""><img src="lilah-wardrobe/cat-nap-top copy.png"></button>
+                    <button type="striped-skirt"><img src="lilah-wardrobe/striped-skirt copy.png"></button>
+                    <button type="suede-skirt"><img src="lilah-wardrobe/suede-skirt copy.png"></button>
+                    <button type="boots"><img src="lilah-wardrobe/boots copy.png"></button>
             </div>
-
         </div>
     </section>
-    
+    <script src="script.js"></script>
 </body>
 </html>
