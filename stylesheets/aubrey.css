@@ -5,7 +5,6 @@
 
 .doll-left {
     width: 50%;
-    
 }
 .parent {
     position: relative;
@@ -26,7 +25,7 @@
     display: none;
 }
 .wardrobe-right {
-    background-color: rgb(182, 129, 129);
+    background-color:  rgb(136, 108, 89);
     width: 50%;
     padding: 2rem;
     max-width: fit-content;
@@ -38,27 +37,15 @@
     display: grid;
     grid-template-columns: auto auto auto;
 }
-#tights-btn {
-    background-color: rgb(182, 129, 129);
-    border: none;
-    padding: 5px;
-    height: 200px;
-}
-#tights-btn :hover {
-    background-color:rgb(162, 112, 112);
-}
-#tights-img {
-    height: 200px;
-}
 
 .wardrobe-btn {
-    background-color: rgb(182, 129, 129);
+    background-color: rgb(136, 108, 89);
     border: none;
     padding: 5px;
     size: auto;
 }.wardrobe-btn :hover{
-    background-color:rgb(162, 112, 112);
+    background-color: rgb(112, 88, 72);
 }.wardrobe-btn img {
     width: 7rem;
-    padding: 1rem;
+    padding: 2rem;
 }

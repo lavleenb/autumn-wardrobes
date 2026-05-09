@@ -12,10 +12,10 @@ function toggle(targetID) {
     }
 };
 
-const clothes = document.querySelectorAll('button[type]');
+const clothes = document.querySelectorAll('button[clothing-item]');
 clothes.forEach(clothing => {
     clothing.addEventListener('click', () => {
-        const objectID = clothing.getAttribute('type');
+        const objectID = clothing.getAttribute('clothing-item');
         toggle(objectID)
     })
 })
