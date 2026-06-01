@@ -69,6 +69,8 @@ a:active {
 
 .menu {
     justify-self: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .menu-btn {
