@@ -12,6 +12,10 @@ function toggle(targetID) {
     }
 };
 
+function toggleJacket() {
+    toggle("jacket-back")
+}
+
 const clothes = document.querySelectorAll('button[clothing-item]');
 clothes.forEach(clothing => {
     clothing.addEventListener('click', () => {
