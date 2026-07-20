@@ -1,51 +1,9 @@
-.game-box{
-    display: flex;
-    padding: 5px;
-}
 
-.doll-left {
-    width: 50%;
-}
-.parent {
-    position: relative;
-    top: 0;
-    left: 0;
-}
-#base-layer {
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 40rem;
-}
-.clothing {
-    position: absolute;
-    top: 0; 
-    left: 0;
-    width: 40rem;
-    display: none;
-}
 .wardrobe-right {
     background-color:  rgb(136, 108, 89);
-    width: 50%;
-    padding: 2rem;
-    max-width: fit-content;
-    max-height: fit-content;
-    margin-top: 0.5in;
 }
-
-.container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-}
-
 .wardrobe-btn {
     background-color: rgb(136, 108, 89);
-    border: none;
-    padding: 5px;
-    size: auto;
 }.wardrobe-btn :hover{
     background-color: rgb(112, 88, 72);
-}.wardrobe-btn img {
-    width: 7rem;
-    padding: 2rem;
 }
