@@ -1,0 +1,8 @@
+.wardrobe-right {
+    background-color:  rgb(245, 237, 231);
+}
+.wardrobe-btn {
+    background-color: rgb(245, 237, 231);
+}.wardrobe-btn :hover{
+    background-color: rgb(224, 214, 208);
+}
